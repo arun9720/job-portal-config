@@ -5,6 +5,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://discovery:8761/eureka/
+      defaultZone: optional:http://discovery:8761/eureka/
   instance:
     prefer-ip-address: true
